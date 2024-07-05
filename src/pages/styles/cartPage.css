@@ -1,0 +1,24 @@
+.cartpage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cartpage__container {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+.cartpage__totals {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.cartpage__list {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}

@@ -1,0 +1,23 @@
+.itemcart {
+    width: 250px;
+    border: 1px solid;
+    padding: 20px;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 2fr 1fr;
+    place-items: center;
+    gap: 10px;
+}
+.itemcart__title {
+    grid-column: span 3;
+}
+.itemcart__buttons {
+    display: flex;
+}
+.itemcart__buttons > span {
+    padding: 0 10px;
+}
+.itemcart__total {
+    grid-column: span 3;
+}
